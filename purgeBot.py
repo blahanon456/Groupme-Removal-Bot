@@ -84,4 +84,4 @@ idlist = list(dict.fromkeys(idlist)) #final list of all whitelisted/registered m
 #remove all members from group who are not on whitelist
 for m in rcGroupMembers:
     if m.id not in idlist:
-         # m.remove()
+         m.remove()

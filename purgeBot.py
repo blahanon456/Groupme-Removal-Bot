@@ -3,7 +3,7 @@ import os.path
 import xlrd
 from xlwt import *
 
-token = "VH1pehGboi1Pe4CDGUGeqF8YKdQBnEK58ID3VvKL"
+token = #Groupy API token here
 
 wb = xlrd.open_workbook(os.path.join(r'C:\Users\jmkre\OneDrive\Desktop\free-time-coding\purgebot', 'registerfinal.xlsx'))
 namesheet = wb.sheet_by_name('Responses')
